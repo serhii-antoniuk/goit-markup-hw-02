@@ -40,6 +40,10 @@ body {
   color: var(--main-title-color);
 }
 
+.header-list .link-current {
+  color: var(--accent-color);
+}
+
 .header-link:hover,
 .header-link:focus {
   color: var(--accent-color);
