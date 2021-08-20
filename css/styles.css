@@ -7,15 +7,25 @@
 
 body {
   font-family: Roboto, sans-serif;
+  font-style: normal;
 }
 
-.logo-web {
+.logo {
   font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+}
+
+.logo-web {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--main-title-color);
 }
 
 .list {
@@ -24,6 +34,17 @@ body {
 
 .link {
   text-decoration: none;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  border: 0;
+  clip: rect(0 0 0 0);
 }
 
 /*-----------------Header----------------*/
@@ -59,14 +80,6 @@ body {
   color: var(--accent-color);
 }
 
-.header-logo {
-  font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
 .header-mail {
   font-weight: 500;
   font-size: 14px;
@@ -89,7 +102,7 @@ body {
   background-color: #2f303a;
 }
 
-.hero-title {
+.features-title-hero {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.4;
@@ -99,12 +112,12 @@ body {
   color: var(--secondary-title-color);
 }
 
-.hero-list-port.link-current {
+.current {
   color: var(--accent-color);
 }
 
-.hero-button {
-  font-weight: bold;
+.filter-button-hero {
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.9;
   display: flex;
@@ -116,12 +129,8 @@ body {
   cursor: pointer;
 }
 
-.hero-invisible {
-  color: #ffffff;
-}
-
-.hero-one-title {
-  font-weight: bold;
+.features-title {
+  font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.03em;
@@ -129,16 +138,15 @@ body {
   color: var(--main-title-color);
 }
 
-.hero-one-text {
-  font-weight: normal;
+.features-text {
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
 
-.hero-two-title {
-  font-weight: bold;
+.section-title {
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.2;
   text-align: center;
@@ -146,16 +154,7 @@ body {
   color: var(--main-title-color);
 }
 
-.hero-three-title {
-  font-weight: bold;
-  font-size: 36px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: var(--main-title-color);
-}
-
-.hero-three-name {
+.team-title {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.2;
@@ -164,8 +163,7 @@ body {
   color: var(--main-title-color);
 }
 
-.hero-three-position {
-  font-weight: normal;
+.team-description {
   font-size: 16px;
   line-height: 1.2;
   text-align: center;
@@ -174,7 +172,7 @@ body {
 }
 
 /*-----------------Hero--Portfolio----------------*/
-.hero-button-port {
+.filter-button {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -185,22 +183,21 @@ body {
   cursor: pointer;
 }
 
-.hero-button-port:hover,
-.hero-button-port:focus {
+.filter-button:hover,
+.filter-button:focus {
   color: #ffffff;
   background: var(--accent-color);
 }
 
-.hero-portfolio-hat {
-  font-weight: bold;
+.gallery-title {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
   color: var(--main-title-color);
 }
 
-.hero-portfolio-details {
-  font-weight: normal;
+.gallery-text {
   font-size: 16px;
   line-height: 1.9;
   letter-spacing: 0.03em;
@@ -208,18 +205,10 @@ body {
 }
 
 /*-----------------Footer----------------*/
+
 .footer-logo-web {
   font-family: Raleway;
-  font-weight: bold;
-  font-size: 26px;
-  line-height: 1.19;
-  letter-spacing: 0.03em;
-  color: var(--accent-color);
-}
-
-.footer-logo {
-  font-family: Raleway;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
@@ -231,7 +220,6 @@ footer {
 }
 
 .footer-link {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -239,7 +227,6 @@ footer {
 }
 
 .footer-mail {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -247,7 +234,6 @@ footer {
 }
 
 .footer-tel {
-  font-weight: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;

@@ -11,14 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
     <!-- Шапка страницы -->
     <header class="header">
       <nav class="header-navigation">
-        <a href="/" class="header-logo link"
-          ><span class="logo-web">Web</span>Studio</a
+        <a href="/" class="logo link"
+          >Web<span class="logo-web">Studio</span></a
         >
 
         <!-- Ссылки на другие страницы и разделы текущей страницы -->
@@ -32,7 +32,7 @@
             >
           </li>
           <li class="header-item">
-            <a class="header-link link" href="/contacts.html">Контакты</a>
+            <a class="header-link link" href="./contacts.html">Контакты</a>
           </li>
         </ul>
       </nav>
@@ -53,121 +53,143 @@
     </header>
     <!-- Герои -->
     <main>
-      <section class="hero-portfolio">
-        <h1 class="hero-invisible">Портфолио</h1>
-        <ul class="hero-list-port list">
-          <li class="hero-item-port">
-            <button class="hero-button-port link-current" type="button">
-              Все
+      <section class="section">
+        <h1 class="visually-hidden">Портфолио</h1>
+        <ul class="filter list">
+          <li class="filter-item">
+            <button class="filter-button current" type="button">Все</button>
+          </li>
+
+          <li class="filter-item">
+            <button class="filter-button current" type="button">
+              Веб-сайты
             </button>
           </li>
 
-          <li class="hero-item-port">
-            <button class="hero-button-port" type="button">Веб-сайты</button>
+          <li class="filter-item">
+            <button class="filter-button current" type="button">
+              Приложения
+            </button>
           </li>
 
-          <li class="hero-item-port">
-            <button class="hero-button-port" type="button">Приложения</button>
+          <li class="filter-item">
+            <button class="filter-button current" type="button">Дизайн</button>
           </li>
 
-          <li class="hero-item-port">
-            <button class="hero-button-port" type="button">Дизайн</button>
-          </li>
-
-          <li class="hero-item-port">
-            <button class="hero-button-port" type="button">Маркетинг</button>
+          <li class="filter-item">
+            <button class="filter-button current" type="button">
+              Маркетинг
+            </button>
           </li>
         </ul>
-        <ul class="hero-list-port list">
-          <li class="hero-item-port">
-            <img
-              src="./images/images2/img1.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Технокряк</h2>
-            <p class="hero-portfolio-details">Веб-сайт</p>
+        <ul class="gallery list">
+          <li class="gallery-item">
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img1.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Технокряк</h2>
+              <p class="gallery-text">Веб-сайт</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img2.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Постер New Orlean vs Golden Star</h2>
-            <p class="hero-portfolio-details">Дизайн</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img2.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Постер New Orlean vs Golden Star</h2>
+              <p class="gallery-text">Дизайн</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img3.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Ресторан Seafood</h2>
-            <p class="hero-portfolio-details">Приложение</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img3.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Ресторан Seafood</h2>
+              <p class="gallery-text">Приложение</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img4.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Проект Prime</h2>
-            <p class="hero-portfolio-details">Маркетинг</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img4.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Проект Prime</h2>
+              <p class="gallery-text">Маркетинг</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img5.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Проект Boxes</h2>
-            <p class="hero-portfolio-details">Приложение</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img5.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Проект Boxes</h2>
+              <p class="gallery-text">Приложение</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img6.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Inspiration has no Borders</h2>
-            <p class="hero-portfolio-details">Веб-сайт</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img6.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Inspiration has no Borders</h2>
+              <p class="gallery-text">Веб-сайт</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img7.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Издание Limited Edition</h2>
-            <p class="hero-portfolio-details">Дизайн</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img7.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Издание Limited Edition</h2>
+              <p class="gallery-text">Дизайн</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img8.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Проект LAB</h2>
-            <p class="hero-portfolio-details">Маркетинг</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img8.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Проект LAB</h2>
+              <p class="gallery-text">Маркетинг</p>
+            </a>
           </li>
           <li>
-            <img
-              src="./images/images2/img9.jpg"
-              alt="На мониторе три фото"
-              width="370"
-              height="294"
-            />
-            <h2 class="hero-portfolio-hat">Growing Business</h2>
-            <p class="hero-portfolio-details">Приложение</p>
+            <a href="" class="gallery-link link">
+              <img
+                src="./images/images2/img9.jpg"
+                alt="На мониторе три фото"
+                width="370"
+                height="294"
+              />
+              <h2 class="gallery-title">Growing Business</h2>
+              <p class="gallery-text">Приложение</p>
+            </a>
           </li>
         </ul>
       </section>
@@ -175,8 +197,8 @@
 
     <!-- Футер -->
     <footer class="footer">
-      <a class="footer-logo link" href="/"
-        ><span class="footer-logo-web">Web</span>Studio</a
+      <a class="logo link" href="/"
+        >Web<span class="footer-logo-web">Studio</span></a
       >
       <address class="footer-address">
         <ul class="footer-list list">
